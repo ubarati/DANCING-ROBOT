@@ -1,0 +1,204 @@
+.robo{
+    
+    position: relative;
+    margin-left: 10rem;
+    margin-top: 5rem;
+
+}
+.face{
+    width: 10rem;
+    height: 8rem;
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 500px 500px 0px 0px;
+    animation: moveface 2s infinite;
+}
+@keyframes moveface {
+    0%{
+        background-color: blue;
+        transform: rotate(0deg);
+    }
+    25%{
+        background-color: rgb(66, 66, 73);
+        transform: rotate(30deg);
+    }
+    50%{
+        background-color: rgb(89, 201, 167);
+        transform: rotate(0deg);
+    }
+    75%{
+        background-color: rgb(196, 185, 38);
+        transform: rotate(-30deg);
+}   
+}
+.eyeball1{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-top: 4.5rem;
+}
+ 
+.eyeball2{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 6.5rem;
+    margin-top: 4.5rem;
+}
+.body{
+    width: 10rem;
+    height: 12rem;
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 50px 50px 0px 0px;
+    margin-left: rem;
+    rotate: 180deg;
+    margin-top: 9rem;
+    animation: HELLO 2s infinite;
+}
+@keyframes HELLO{
+    0%{
+        background-color: blue;
+        transform: rotate(0deg);
+    }
+    25%{
+        background-color: rgb(66, 66, 73);
+        transform: rotate(30deg);
+    }
+    50%{
+        background-color: rgb(89, 201, 167);
+        transform: rotate(0deg);
+    }
+    75%{
+        background-color: rgb(196, 185, 38);
+        transform: rotate(-30deg);
+}   
+}
+.hand1{
+    width: 2rem;
+    height: 7rem;
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: rem;
+    rotate: 180deg;
+    margin-top: 10rem;
+    margin-left: -2.5rem;
+    animation: moveeyeball1 2s infinite;
+
+}
+@keyframes moveeyeball1{
+    0%{
+        background-color: blue;
+        transform: rotate(0deg);
+    }
+    25%{
+        background-color: rgb(66, 66, 73);
+        transform: rotate(30deg);
+    }
+    50%{
+        background-color: rgb(89, 201, 167);
+        transform: rotate(0deg);
+    }
+    75%{
+        background-color: rgb(196, 185, 38);
+        transform: rotate(-30deg);
+}   
+}
+.hand2{
+    width: 2rem;
+    height: 7rem;
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: rem;
+    rotate: 180deg;
+    margin-top: 10rem;
+    margin-left: 10.5rem;
+    animation: moveeyeball2 2s infinite;
+
+}
+@keyframes moveeyeball2{
+    0%{
+        background-color: blue;
+        transform: rotate(0deg);
+    }
+    25%{
+        background-color: rgb(66, 66, 73);
+        transform: rotate(30deg);
+    }
+    50%{
+        background-color: rgb(89, 201, 167);
+        transform: rotate(0deg);
+    }
+    75%{
+        background-color: rgb(196, 185, 38);
+        transform: rotate(-30deg);
+}   
+
+}
+.knee1{
+    width: 2rem;
+    height: 7rem;
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: rem;
+    rotate: 180deg;
+    margin-top: 19rem;
+    margin-left: 6rem;
+    animation: moveeyeball1 2s infinite;
+}
+@keyframes moveeyeball3{
+    0%{
+        background-color: blue;
+        transform: rotate(0deg);
+    }
+    25%{
+        background-color: rgb(66, 66, 73);
+        transform: rotate(30deg);
+    }
+    50%{
+        background-color: rgb(89, 201, 167);
+        transform: rotate(0deg);
+    }
+    75%{
+        background-color: rgb(196, 185, 38);
+        transform: rotate(-30deg);
+}  
+}
+.knee2{
+    width: 2rem;
+    height: 7rem;
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: rem;
+    rotate: 180deg;
+    margin-top: 19rem;
+    margin-left: 2rem;
+    animation: moveeyeball4 2s infinite;
+}
+@keyframes moveeyeball4{
+    0%{
+        background-color: blue;
+        transform: rotate(0deg);
+    }
+    25%{
+        background-color: rgb(66, 66, 73);
+        transform: rotate(30deg);
+    }
+    50%{
+        background-color: rgb(89, 201, 167);
+        transform: rotate(0deg);
+    }
+    75%{
+        background-color: rgb(196, 185, 38);
+        transform: rotate(-30deg);
+}  
+}
